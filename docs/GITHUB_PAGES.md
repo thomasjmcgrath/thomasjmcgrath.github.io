@@ -6,6 +6,8 @@ Version 1.6.0 is a static website. The main branch includes a ready-built `index
 
 In this repository, open Settings → Pages. Keep **Deploy from a branch**, **main**, **/(root)**. Save only if those controls differ. Leave the existing domain and HTTPS controls as configured. A root `CNAME` should contain your own configured domain only. This release does not change DNS records.
 
+The custom-domain file must exist as both `CNAME` in the published branch root and `public/CNAME` in the build source. Both contain `thomasmcgrath.ca`. Vite copies the public file into the build, and the generated-file manifest preserves the published copy on subsequent updates.
+
 The `Update and publish Hippo World Tour` workflow checks, builds and commits generated website files. On manual and daily scheduled runs it also refreshes the attributed news snapshot. After the commit, it explicitly requests a Pages build because commits made with the workflow token do not automatically trigger the normal Pages build. The workflow uses GitHub's repository token with contents and Pages write permissions. No personal access token is needed.
 
 GitHub's existing `pages build and deployment` workflow performs the actual publication. A green test run alone does not mean the website was published. Review that Pages run and open its deployment URL.
