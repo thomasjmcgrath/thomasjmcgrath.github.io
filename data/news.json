@@ -203,31 +203,31 @@
   "feeds": [
     {
       "source_id": "cincinnati-news",
-      "attempted_at": "2026-11-07T07:11:25.004Z",
-      "success_at": "2026-11-07T07:11:25.004Z",
+      "attempted_at": "2026-11-07T18:59:11.611Z",
+      "success_at": "2026-11-07T18:59:11.611Z",
       "status": 200,
       "matched": 0,
       "note": "Index retrieved. 0 matching stories, 0 new. 0 changed headlines retained for editorial review."
     },
     {
       "source_id": "mulhouse-news",
-      "attempted_at": "2026-11-07T07:11:40.670Z",
-      "success_at": "2026-11-07T07:11:40.670Z",
+      "attempted_at": "2026-11-07T18:59:13.541Z",
+      "success_at": "2026-11-07T18:59:13.541Z",
       "status": 200,
       "matched": 0,
       "note": "Index retrieved. 0 matching stories, 0 new. 0 changed headlines retained for editorial review."
     },
     {
       "source_id": "richmond-news",
-      "attempted_at": "2026-11-07T07:11:28.578Z",
-      "success_at": "2026-11-07T07:11:28.578Z",
+      "attempted_at": "2026-11-07T18:59:11.754Z",
+      "success_at": "2026-11-07T18:59:11.754Z",
       "status": 200,
       "matched": 5,
-      "note": "Index retrieved. 5 matching stories, 4 new. 0 changed headlines retained for editorial review."
+      "note": "Index retrieved. 5 matching stories, 0 new. 0 changed headlines retained for editorial review."
     },
     {
       "source_id": "thai-pbs",
-      "attempted_at": "2026-11-07T07:11:19.730Z",
+      "attempted_at": "2026-11-07T18:59:11.104Z",
       "success_at": null,
       "status": 0,
       "matched": 0,
@@ -235,16 +235,16 @@
     },
     {
       "source_id": "toronto-news",
-      "attempted_at": "2026-11-07T07:11:32.246Z",
-      "success_at": "2026-11-07T07:11:32.246Z",
+      "attempted_at": "2026-11-07T18:59:11.895Z",
+      "success_at": "2026-11-07T18:59:11.895Z",
       "status": 200,
       "matched": 1,
       "note": "Index retrieved. 1 matching stories, 0 new. 0 changed headlines retained for editorial review."
     },
     {
       "source_id": "wingham-news",
-      "attempted_at": "2026-11-07T07:11:36.405Z",
-      "success_at": "2026-11-07T07:11:36.405Z",
+      "attempted_at": "2026-11-07T18:59:12.712Z",
+      "success_at": "2026-11-07T18:59:12.712Z",
       "status": 200,
       "matched": 0,
       "note": "Index retrieved. 0 matching stories, 0 new. 0 changed headlines retained for editorial review."
@@ -252,6 +252,6 @@
   ],
   "storageAvailable": true,
   "editorialCheckedAt": "2026-11-06",
-  "lastAttemptAt": "2026-11-07T07:11:40.670Z",
+  "lastAttemptAt": "2026-11-07T18:59:13.541Z",
   "reviewQueue": []
 }
