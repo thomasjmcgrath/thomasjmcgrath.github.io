@@ -1,0 +1,8 @@
+# Copy to .dev.vars for LOCAL testing. Never commit the filled file.
+# Production values belong in Cloudflare secrets or GitHub Actions secrets.
+HIPPO_SKYSCANNER_API_KEY=
+HIPPO_TRENDS_FEED_URL=
+HIPPO_TRENDS_FEED_TOKEN=
+# Only for a separate public Cloudflare deployment:
+# HIPPO_STANDALONE=1
+# HIPPO_MAINTENANCE_TOKEN=

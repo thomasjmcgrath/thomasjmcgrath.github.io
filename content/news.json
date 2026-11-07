@@ -1,0 +1,105 @@
+[
+  {
+    "publisherId": "thai-pbs",
+    "url": "https://www.thaipbsworld.com/around-thailand/572288",
+    "title": "Moo Deng has entered her auntie era",
+    "summary": "Thai PBS World reports a new calf born to Moo Deng’s brother Moo Toon and Moo Manao on November 4. Public introduction plans are still to be announced.",
+    "hippoIds": [
+      "moo-deng"
+    ],
+    "publishedAt": "2026-11-06T00:00:00.000Z",
+    "eventDate": "2026-11-04",
+    "category": "family"
+  },
+  {
+    "publisherId": "people",
+    "url": "https://people.com/fiona-the-hippo-and-family-eat-pumpkins-cute-video-cincinnati-zoo-12196513",
+    "title": "Fiona and Fritz take pumpkin crunching very seriously",
+    "summary": "PEOPLE covers Cincinnati Zoo’s October 26 video of Fiona, Fritz, Bibi and Tucker enjoying pumpkins as enrichment. A seasonal snack, delivered with considerable enthusiasm.",
+    "hippoIds": [
+      "fiona",
+      "fritz"
+    ],
+    "publishedAt": "2026-10-27T16:40:00.000Z",
+    "eventDate": "2026-10-26",
+    "category": "enrichment"
+  },
+  {
+    "publisherId": "thai-pbs",
+    "url": "https://www.thaipbsworld.com/around-thailand/558199",
+    "title": "Moo Deng’s fan mail gets an unusually good reply",
+    "summary": "Thai PBS World reports that a young Brazilian fan received a reply carrying Moo Deng’s tail print. Celebrity correspondence has a new benchmark.",
+    "hippoIds": [
+      "moo-deng"
+    ],
+    "publishedAt": "2026-09-20T00:00:00.000Z",
+    "category": "keeper"
+  },
+  {
+    "publisherId": "toronto-news",
+    "url": "https://www.torontozoo.com/maple",
+    "title": "A desk safari with Maple and Kindia",
+    "summary": "Toronto Zoo’s Maple page links to a Zoolife camera. Check that official page for current access, viewing windows and subscription terms before opening the stream.",
+    "hippoIds": [
+      "maple"
+    ],
+    "publishedAt": null,
+    "category": "watch"
+  },
+  {
+    "publisherId": "toronto-news",
+    "url": "https://www.torontozoo.com/mediaroom/press2026/20260821-maple",
+    "title": "Toronto Zoo introduces Maple by name",
+    "summary": "The zoo’s August announcement introduced its Canadian-born pygmy hippo calf as Maple and described early life with mother Kindia. This is an archive milestone, not today’s viewing notice.",
+    "hippoIds": [
+      "maple"
+    ],
+    "publishedAt": "2026-08-21T00:00:00.000Z",
+    "category": "milestone"
+  },
+  {
+    "publisherId": "wingham-news",
+    "url": "https://winghamwildlifepark.co.uk/lights-camera-conservation-wingham-wildlife-team-mammal-awards/",
+    "title": "Haggis wins the keepers’ new-arrival award",
+    "summary": "Wingham’s mammal team chose Haggis for its new-arrival honour in a keeper-written awards post. The story celebrates her personality and conservation role. It does not announce public viewing.",
+    "hippoIds": [
+      "haggis"
+    ],
+    "publishedAt": "2026-02-26T00:00:00.000Z",
+    "category": "milestone"
+  },
+  {
+    "publisherId": "richmond-news",
+    "url": "https://metrorichmondzoo.com/newsroom/poppy-celebrates-her-first-birthday/",
+    "title": "Poppy’s first year, according to her care team",
+    "summary": "Metro Richmond Zoo marked Poppy’s first birthday with a care update and a look back at her first year. The December 2025 article also describes support for pygmy hippo conservation.",
+    "hippoIds": [
+      "poppy"
+    ],
+    "publishedAt": "2025-12-09T00:00:00.000Z",
+    "category": "milestone"
+  },
+  {
+    "publisherId": "mulhouse-authority",
+    "url": "https://mag.mulhouse-alsace.fr/rencontrez-toni-lhippopotame-pygmee-au-parc-zoologique-botanique/",
+    "title": "Toni’s Mulhouse chapter begins",
+    "summary": "The local authority’s September 2025 article introduces Toni at Mulhouse. Keep this as relocation history and use the current official visitor page when planning a trip.",
+    "hippoIds": [
+      "toni"
+    ],
+    "publishedAt": "2025-09-06T00:00:00.000Z",
+    "category": "family"
+  },
+  {
+    "publisherId": "toronto-news",
+    "url": "https://www.torontozoo.com/mediaroom/press2026/20260728",
+    "title": "Maple meets Canada’s house-hippo lore",
+    "summary": "Toronto Zoo, the CN Tower and MediaSmarts used the fictional Canadian house hippo for a media-literacy campaign. The zoo’s October 28 story highlights Maple while encouraging people to check the sources behind convincing online videos.",
+    "hippoIds": [
+      "maple"
+    ],
+    "publishedAt": "2026-10-28T00:00:00.000Z",
+    "category": "keeper",
+    "addedAt": "2026-11-06T23:46:53.811Z"
+  }
+]

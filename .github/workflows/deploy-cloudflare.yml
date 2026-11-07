@@ -1,0 +1,54 @@
+name: Deploy full site to Cloudflare
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: hippo-production
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: production
+    env:
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      CLOUDFLARE_D1_DATABASE_ID: ${{ secrets.CLOUDFLARE_D1_DATABASE_ID }}
+      HIPPO_WORKER_NAME: ${{ vars.HIPPO_WORKER_NAME || 'hippo-world-tour' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - name: Check maintenance configuration
+        env:
+          HIPPO_MAINTENANCE_TOKEN: ${{ secrets.HIPPO_MAINTENANCE_TOKEN }}
+        run: node -e "if(!process.env.HIPPO_MAINTENANCE_TOKEN)throw Error('Add the HIPPO_MAINTENANCE_TOKEN repository secret first.')"
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm test
+      - run: pnpm typecheck
+      - run: pnpm build
+      - run: pnpm cloudflare:prepare
+      - name: Apply database migrations
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: d1 migrations apply DB --remote --config dist/server/wrangler.standalone.json
+      - name: Deploy with server-only provider secrets
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: deploy --config dist/server/wrangler.standalone.json
+          secrets: |
+            HIPPO_MAINTENANCE_TOKEN
+            ${{ secrets.HIPPO_SKYSCANNER_API_KEY != '' && 'HIPPO_SKYSCANNER_API_KEY' || '' }}
+            ${{ secrets.HIPPO_TRENDS_FEED_URL != '' && 'HIPPO_TRENDS_FEED_URL' || '' }}
+            ${{ secrets.HIPPO_TRENDS_FEED_TOKEN != '' && 'HIPPO_TRENDS_FEED_TOKEN' || '' }}
+        env:
+          HIPPO_SKYSCANNER_API_KEY: ${{ secrets.HIPPO_SKYSCANNER_API_KEY }}
+          HIPPO_TRENDS_FEED_URL: ${{ secrets.HIPPO_TRENDS_FEED_URL }}
+          HIPPO_TRENDS_FEED_TOKEN: ${{ secrets.HIPPO_TRENDS_FEED_TOKEN }}
+          HIPPO_MAINTENANCE_TOKEN: ${{ secrets.HIPPO_MAINTENANCE_TOKEN }}

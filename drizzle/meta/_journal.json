@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1793945577832,
+      "tag": "0000_wealthy_nitro",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1794006676174,
+      "tag": "0001_organic_ricochet",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1794012748118,
+      "tag": "0002_live_data",
+      "breakpoints": true
+    }
+  ]
+}

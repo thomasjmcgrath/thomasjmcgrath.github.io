@@ -1,0 +1,3 @@
+import {WatchHub} from '@/components/WatchHub';
+export const metadata={title:'The Desk Safari · Watch hippos from home',description:'Official hippo camera links and updates, with clear access conditions and local zoo time.'};
+export default function Page(){return <section className="section cream"><div className="container"><p className="eyebrow">LOW AIRFARE / HIGH HIPPO POTENTIAL</p><h1 className="page-title">THE DESK<br/><em>SAFARI.</em></h1><p className="page-intro">Some days, the expedition starts on your sofa. Find official cameras and published updates for the cast.</p><WatchHub/></div></section>;}

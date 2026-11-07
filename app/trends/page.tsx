@@ -1,0 +1,5 @@
+import {Popularity} from '@/components/Popularity';
+import {Arrow} from '@/components/Site';
+import {ExternalTrends} from '@/components/ExternalTrends';
+export const metadata={title:'The popularity contest'};
+export default function Page(){return <><section className="page-section cream"><div className="container"><p className="eyebrow">MEASURED ENTHUSIASM / CLEAR LABELS</p><h1 className="page-title">THE POPULARITY<br/><em>CONTEST.</em></h1><p className="page-intro">Who are people looking for? Start with real site activity.<br/>External search interest has a separate source and a separate scale.</p><div className="analytics-heading"><h2>POPULAR ON<br/>HIPPO WORLD TOUR.</h2><p>We count intentional activity, deduplicate it within a 30-minute session, and keep today's partial totals separate.</p></div><Popularity/></div></section><section className="section"><div className="container"><p className="eyebrow">THE WIDER INTERNET</p><h2>GLOBAL INTEREST.<br/><em>WITH THE FINE PRINT.</em></h2><ExternalTrends/><a href="/about#statistics" className="text-link lime">Read the full methodology <Arrow/></a></div></section></>;}

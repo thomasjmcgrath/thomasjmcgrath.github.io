@@ -1,0 +1,1 @@
+export default function NotFound(){return <section className="page-section cream"><div className="container"><p className="eyebrow">404 / DIFFERENT PUDDLE</p><h1 className="page-title">THIS HIPPO<br/><em>IS ELSEWHERE.</em></h1><p className="page-intro">That page isn't in the field guide.</p><a className="btn" href="/hippos">Meet the actual cast ↗</a></div></section>;}

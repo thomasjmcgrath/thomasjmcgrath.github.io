@@ -1,0 +1,4 @@
+import {Passport} from '@/components/Passport';
+import {hippos} from '@/lib/catalog';
+export const metadata={title:'My Hippo Passport',description:'Your personal hippo visit and watch log, saved in your browser with portable backups.'};
+export default async function Page({searchParams}:{searchParams:Promise<{hippo?:string;kind?:string}>}){const q=await searchParams,hippo=hippos.some(h=>h.id===q.hippo)?q.hippo:'maple';return <section className="section cream"><div className="container"><p className="eyebrow">PERSONAL STORIES / UNREASONABLE ENTHUSIASM</p><h1 className="page-title">YOUR HIPPO<br/><em>ERA, RECORDED.</em></h1><p className="page-intro">Collect the moments. Keep the field notes. Admit when the hippo stayed behind the scenes.</p><Passport initialHippo={hippo} initialKind={q.kind==='watch'?'watch':'visit'}/></div></section>;}

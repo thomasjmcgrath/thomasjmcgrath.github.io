@@ -1,0 +1,23 @@
+name: Refresh hippo data
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 14 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: hippo-data
+  cancel-in-progress: false
+jobs:
+  refresh:
+    if: ${{ vars.HIPPO_SITE_URL != '' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: node scripts/refresh-hosted-data.mjs
+        env:
+          HIPPO_SITE_URL: ${{ vars.HIPPO_SITE_URL }}
+          HIPPO_MAINTENANCE_TOKEN: ${{ secrets.HIPPO_MAINTENANCE_TOKEN }}

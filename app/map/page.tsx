@@ -1,0 +1,4 @@
+import {HippoMap} from '@/components/HippoMap';
+import {Arrow} from '@/components/Site';
+export const metadata={title:'The hippo map',description:'Explore famous hippos at their current venues. Compare regions, visitor notes and nearby airports, then build a realistic trip.'};
+export default function Page(){return <section className="page-section cream"><div className="container"><p className="eyebrow">SIX VENUES / SEVEN MAIN CHARACTERS</p><h1 className="page-title">PUT THE HIPPOS<br/><em>ON THE MAP.</em></h1><p className="page-intro">A small cast with a surprisingly large travel radius.<br/>Choose a marker or a venue below to read the visiting notes.</p><HippoMap/><div className="map-plan-cta"><h3>FOUND YOUR REASON TO GO?</h3><a className="btn" href="/plan">Build my hippo trip <Arrow/></a></div></div></section>;}
