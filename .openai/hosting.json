@@ -1,7 +1,7 @@
 {
-  "d1": "DB",
+  "d1": null,
   "r2": null,
-  "capabilities": [
-    "mcp"
-  ]
+  "static": {
+    "directory": "dist"
+  }
 }

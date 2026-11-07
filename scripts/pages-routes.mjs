@@ -1,0 +1,16 @@
+export const pageRoutes=[
+ {path:'/',title:'Hippo World Tour · Go meet your internet hippo'},
+ {path:'/hippos',title:'Meet the hippos'},
+ {path:'/map',title:'The hippo map'},
+ {path:'/plan',title:'Plan my hippo trip'},
+ {path:'/news',title:'The Bloat Bulletin · Hippo news'},
+ {path:'/trends',title:'The popularity playground'},
+ {path:'/learn',title:'Hippo University'},
+ {path:'/about',title:'Sources and privacy'},
+ {path:'/compare',title:'Compare destinations'},
+ {path:'/passport',title:'My hippo passport'},
+ {path:'/birthdays',title:'Birthday calendar'},
+ {path:'/watch',title:'The desk safari'},
+ {path:'/quiz',title:'Find your hippo energy'},
+ ...[['moo-deng','Moo Deng'],['fiona','Fiona'],['fritz','Fritz'],['poppy','Poppy'],['maple','Maple'],['haggis','Haggis'],['toni','Toni']].map(([id,name])=>({path:'/hippos/'+id,title:name})),
+];

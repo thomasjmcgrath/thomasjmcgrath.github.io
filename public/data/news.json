@@ -1,0 +1,257 @@
+{
+  "items": [
+    {
+      "publisherId": "thai-pbs",
+      "url": "https://www.thaipbsworld.com/around-thailand/572288",
+      "title": "Moo Deng has entered her auntie era",
+      "summary": "Thai PBS World reports a new calf born to Moo Deng’s brother Moo Toon and Moo Manao on November 4. Public introduction plans are still to be announced.",
+      "hippoIds": [
+        "moo-deng"
+      ],
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "eventDate": "2026-11-04",
+      "category": "family",
+      "id": "https://www.thaipbsworld.com/around-thailand/572288",
+      "origin": "editorial",
+      "checkedAt": "2026-11-06",
+      "firstSeenAt": "2026-11-06"
+    },
+    {
+      "publisherId": "toronto-news",
+      "url": "https://www.torontozoo.com/maple",
+      "title": "A desk safari with Maple and Kindia",
+      "summary": "Toronto Zoo’s Maple page links to a Zoolife camera. Check that official page for current access, viewing windows and subscription terms before opening the stream.",
+      "hippoIds": [
+        "maple"
+      ],
+      "publishedAt": null,
+      "category": "watch",
+      "id": "https://www.torontozoo.com/maple",
+      "origin": "editorial",
+      "checkedAt": "2026-11-06",
+      "firstSeenAt": "2026-11-06"
+    },
+    {
+      "publisherId": "toronto-news",
+      "url": "https://www.torontozoo.com/mediaroom/press2026/20260728",
+      "title": "Maple meets Canada’s house-hippo lore",
+      "summary": "Toronto Zoo, the CN Tower and MediaSmarts used the fictional Canadian house hippo for a media-literacy campaign. The zoo’s October 28 story highlights Maple while encouraging people to check the sources behind convincing online videos.",
+      "hippoIds": [
+        "maple"
+      ],
+      "publishedAt": "2026-10-28T00:00:00.000Z",
+      "category": "keeper",
+      "addedAt": "2026-11-06T23:46:53.811Z",
+      "id": "https://www.torontozoo.com/mediaroom/press2026/20260728",
+      "origin": "editorial",
+      "checkedAt": "2026-11-06",
+      "firstSeenAt": "2026-11-06T23:46:53.811Z"
+    },
+    {
+      "publisherId": "people",
+      "url": "https://people.com/fiona-the-hippo-and-family-eat-pumpkins-cute-video-cincinnati-zoo-12196513",
+      "title": "Fiona and Fritz take pumpkin crunching very seriously",
+      "summary": "PEOPLE covers Cincinnati Zoo’s October 26 video of Fiona, Fritz, Bibi and Tucker enjoying pumpkins as enrichment. A seasonal snack, delivered with considerable enthusiasm.",
+      "hippoIds": [
+        "fiona",
+        "fritz"
+      ],
+      "publishedAt": "2026-10-27T16:40:00.000Z",
+      "eventDate": "2026-10-26",
+      "category": "enrichment",
+      "id": "https://people.com/fiona-the-hippo-and-family-eat-pumpkins-cute-video-cincinnati-zoo-12196513",
+      "origin": "editorial",
+      "checkedAt": "2026-11-06",
+      "firstSeenAt": "2026-11-06"
+    },
+    {
+      "publisherId": "thai-pbs",
+      "url": "https://www.thaipbsworld.com/around-thailand/558199",
+      "title": "Moo Deng’s fan mail gets an unusually good reply",
+      "summary": "Thai PBS World reports that a young Brazilian fan received a reply carrying Moo Deng’s tail print. Celebrity correspondence has a new benchmark.",
+      "hippoIds": [
+        "moo-deng"
+      ],
+      "publishedAt": "2026-09-20T00:00:00.000Z",
+      "category": "keeper",
+      "id": "https://www.thaipbsworld.com/around-thailand/558199",
+      "origin": "editorial",
+      "checkedAt": "2026-11-06",
+      "firstSeenAt": "2026-11-06"
+    },
+    {
+      "publisherId": "toronto-news",
+      "url": "https://www.torontozoo.com/mediaroom/press2026/20260821-maple",
+      "title": "Toronto Zoo introduces Maple by name",
+      "summary": "The zoo’s August announcement introduced its Canadian-born pygmy hippo calf as Maple and described early life with mother Kindia. This is an archive milestone, not today’s viewing notice.",
+      "hippoIds": [
+        "maple"
+      ],
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "category": "milestone",
+      "id": "https://www.torontozoo.com/mediaroom/press2026/20260821-maple",
+      "origin": "editorial",
+      "checkedAt": "2026-11-06",
+      "firstSeenAt": "2026-11-06"
+    },
+    {
+      "publisherId": "wingham-news",
+      "url": "https://winghamwildlifepark.co.uk/lights-camera-conservation-wingham-wildlife-team-mammal-awards/",
+      "title": "Haggis wins the keepers’ new-arrival award",
+      "summary": "Wingham’s mammal team chose Haggis for its new-arrival honour in a keeper-written awards post. The story celebrates her personality and conservation role. It does not announce public viewing.",
+      "hippoIds": [
+        "haggis"
+      ],
+      "publishedAt": "2026-02-26T00:00:00.000Z",
+      "category": "milestone",
+      "id": "https://winghamwildlifepark.co.uk/lights-camera-conservation-wingham-wildlife-team-mammal-awards/",
+      "origin": "editorial",
+      "checkedAt": "2026-11-06",
+      "firstSeenAt": "2026-11-06"
+    },
+    {
+      "id": "https://metrorichmondzoo.com/newsroom/poppys-first-birthday-party/",
+      "url": "https://metrorichmondzoo.com/newsroom/poppys-first-birthday-party/",
+      "publisherId": "richmond-news",
+      "title": "Poppy’s First Birthday Party",
+      "summary": "",
+      "hippoIds": [
+        "poppy"
+      ],
+      "publishedAt": "2025-12-23T19:13:38.000Z",
+      "checkedAt": "2026-11-07T07:11:32.243Z",
+      "category": "family",
+      "origin": "feed",
+      "firstSeenAt": "2026-11-07T07:11:28.578Z"
+    },
+    {
+      "publisherId": "richmond-news",
+      "url": "https://metrorichmondzoo.com/newsroom/poppy-celebrates-her-first-birthday/",
+      "title": "Poppy’s first year, according to her care team",
+      "summary": "Metro Richmond Zoo marked Poppy’s first birthday with a care update and a look back at her first year. The December 2025 article also describes support for pygmy hippo conservation.",
+      "hippoIds": [
+        "poppy"
+      ],
+      "publishedAt": "2025-12-09T00:00:00.000Z",
+      "category": "milestone",
+      "id": "https://metrorichmondzoo.com/newsroom/poppy-celebrates-her-first-birthday/",
+      "origin": "editorial",
+      "checkedAt": "2026-11-06",
+      "firstSeenAt": "2026-11-06"
+    },
+    {
+      "id": "https://metrorichmondzoo.com/newsroom/metro-richmond-zoo-shines-at-2025-zoological-association-of-america-conference/",
+      "url": "https://metrorichmondzoo.com/newsroom/metro-richmond-zoo-shines-at-2025-zoological-association-of-america-conference/",
+      "publisherId": "richmond-news",
+      "title": "Metro Richmond Zoo Shines at 2025 Zoological Association of America Conference",
+      "summary": "",
+      "hippoIds": [
+        "poppy"
+      ],
+      "publishedAt": "2025-10-22T11:47:12.000Z",
+      "checkedAt": "2026-11-07T07:11:32.243Z",
+      "category": "family",
+      "origin": "feed",
+      "firstSeenAt": "2026-11-07T07:11:28.578Z"
+    },
+    {
+      "publisherId": "mulhouse-authority",
+      "url": "https://mag.mulhouse-alsace.fr/rencontrez-toni-lhippopotame-pygmee-au-parc-zoologique-botanique/",
+      "title": "Toni’s Mulhouse chapter begins",
+      "summary": "The local authority’s September 2025 article introduces Toni at Mulhouse. Keep this as relocation history and use the current official visitor page when planning a trip.",
+      "hippoIds": [
+        "toni"
+      ],
+      "publishedAt": "2025-09-06T00:00:00.000Z",
+      "category": "family",
+      "id": "https://mag.mulhouse-alsace.fr/rencontrez-toni-lhippopotame-pygmee-au-parc-zoologique-botanique/",
+      "origin": "editorial",
+      "checkedAt": "2026-11-06",
+      "firstSeenAt": "2026-11-06"
+    },
+    {
+      "id": "https://metrorichmondzoo.com/newsroom/celebrating-30-years/",
+      "url": "https://metrorichmondzoo.com/newsroom/celebrating-30-years/",
+      "publisherId": "richmond-news",
+      "title": "Celebrating 30 Years",
+      "summary": "",
+      "hippoIds": [
+        "poppy"
+      ],
+      "publishedAt": "2025-04-22T23:03:49.000Z",
+      "checkedAt": "2026-11-07T07:11:32.243Z",
+      "category": "family",
+      "origin": "feed",
+      "firstSeenAt": "2026-11-07T07:11:28.578Z"
+    },
+    {
+      "id": "https://metrorichmondzoo.com/newsroom/new-pygmy-hippo-outdoor-experience/",
+      "url": "https://metrorichmondzoo.com/newsroom/new-pygmy-hippo-outdoor-experience/",
+      "publisherId": "richmond-news",
+      "title": "New Pygmy Hippo Outdoor Experience",
+      "summary": "",
+      "hippoIds": [
+        "poppy"
+      ],
+      "publishedAt": "2025-04-11T14:35:25.000Z",
+      "checkedAt": "2026-11-07T07:11:32.243Z",
+      "category": "watch",
+      "origin": "feed",
+      "firstSeenAt": "2026-11-07T07:11:28.578Z"
+    }
+  ],
+  "feeds": [
+    {
+      "source_id": "cincinnati-news",
+      "attempted_at": "2026-11-07T07:11:25.004Z",
+      "success_at": "2026-11-07T07:11:25.004Z",
+      "status": 200,
+      "matched": 0,
+      "note": "Index retrieved. 0 matching stories, 0 new. 0 changed headlines retained for editorial review."
+    },
+    {
+      "source_id": "mulhouse-news",
+      "attempted_at": "2026-11-07T07:11:40.670Z",
+      "success_at": "2026-11-07T07:11:40.670Z",
+      "status": 200,
+      "matched": 0,
+      "note": "Index retrieved. 0 matching stories, 0 new. 0 changed headlines retained for editorial review."
+    },
+    {
+      "source_id": "richmond-news",
+      "attempted_at": "2026-11-07T07:11:28.578Z",
+      "success_at": "2026-11-07T07:11:28.578Z",
+      "status": 200,
+      "matched": 5,
+      "note": "Index retrieved. 5 matching stories, 4 new. 0 changed headlines retained for editorial review."
+    },
+    {
+      "source_id": "thai-pbs",
+      "attempted_at": "2026-11-07T07:11:19.730Z",
+      "success_at": null,
+      "status": 0,
+      "matched": 0,
+      "note": "The publisher returned a blocked page."
+    },
+    {
+      "source_id": "toronto-news",
+      "attempted_at": "2026-11-07T07:11:32.246Z",
+      "success_at": "2026-11-07T07:11:32.246Z",
+      "status": 200,
+      "matched": 1,
+      "note": "Index retrieved. 1 matching stories, 0 new. 0 changed headlines retained for editorial review."
+    },
+    {
+      "source_id": "wingham-news",
+      "attempted_at": "2026-11-07T07:11:36.405Z",
+      "success_at": "2026-11-07T07:11:36.405Z",
+      "status": 200,
+      "matched": 0,
+      "note": "Index retrieved. 0 matching stories, 0 new. 0 changed headlines retained for editorial review."
+    }
+  ],
+  "storageAvailable": true,
+  "editorialCheckedAt": "2026-11-06",
+  "lastAttemptAt": "2026-11-07T07:11:40.670Z",
+  "reviewQueue": []
+}

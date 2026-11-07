@@ -1,0 +1,23 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "plugins": [],
+    "types": [
+      "node",
+      "vite/client"
+    ]
+  },
+  "include": [
+    "web/**/*.tsx",
+    "web/**/*.ts",
+    "vite.pages.config.ts",
+    "scripts/refresh-pages-news.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "app/api",
+    "db",
+    "worker"
+  ]
+}

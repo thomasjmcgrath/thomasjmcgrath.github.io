@@ -1,10 +1,7 @@
-# Hippo World Tour source export
+# Hippo World Tour source
 
-App version: 1.5.0.
-Code provenance: local source commit c6728c69134503ba71fc0b3c814d0be595add511. The validation document was updated after that commit to record the publication blocker. The exported hosting manifest omits the original Site identity.
+Version 1.6.0 is the GitHub Pages edition. The repository contains browser source and generated static pages. See README.md and docs/GITHUB_PAGES.md.
 
-This package includes the complete personality quiz at /quiz. All 123 automated tests, TypeScript and the production Worker build passed. Browser checks covered desktop and narrow phone layouts, saved progress, keyboard controls, editable review, traits, sharing, friend comparisons and a real PNG download.
+The earlier version 1.5 source export could not be published to the original private Site because its source service returned HTTP 503. That historical limitation is separate from this GitHub Pages release.
 
-Publishing this release to the linked Site was blocked by HTTP 503 from its source service. The previous hosted Site remains unchanged. This source package is ready for your GitHub setup using docs/GITHUB_SETUP.md. It is a server application and requires the documented Worker/database setup. There are no additional database migrations for version 1.5.
-
-No credentials, private runtime state, Git metadata, node_modules or built output are included. Optional live data providers still require authorized configuration. Quiz scores are fictional personal matches, not popularity rankings.
+No original Site ID, private credentials, application database or runtime user data are included. The published GitHub version keeps fictional demo statistics visibly labelled and uses external flight-provider searches.

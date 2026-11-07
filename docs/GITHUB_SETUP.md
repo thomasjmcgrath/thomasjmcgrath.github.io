@@ -1,3 +1,5 @@
+> Historical server-hosting option. For the current GitHub Pages edition, use [GITHUB_PAGES.md](GITHUB_PAGES.md).
+
 # Put the full Hippo World Tour on GitHub
 
 This package is ready to store in a GitHub repository and deploy to Cloudflare Workers. GitHub Pages alone serves static files and cannot run the flight API, news updater or shared database. No separate frontend/backend rewrite is needed.

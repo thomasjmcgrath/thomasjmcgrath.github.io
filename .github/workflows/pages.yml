@@ -1,0 +1,52 @@
+name: Update and publish Hippo World Tour
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '30 14 * * *'
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: hippo-pages-source
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: pnpm
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Refresh attributed news snapshot
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: npm run news:refresh
+      - name: Type check
+        run: npm run typecheck
+      - name: Test
+        run: npm test
+      - name: Build static website
+        run: npm run build
+      - name: Prepare website files
+        run: node scripts/publish-pages-files.mjs --stage
+      - name: Retain website and news updates
+        run: |
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Publish static hippo website and retained news data'
+            git push
+          fi
+      - name: Request the Pages publication
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds"
