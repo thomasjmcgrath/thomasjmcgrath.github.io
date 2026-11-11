@@ -203,31 +203,31 @@
   "feeds": [
     {
       "source_id": "cincinnati-news",
-      "attempted_at": "2026-11-10T20:57:22.485Z",
-      "success_at": "2026-11-10T20:57:22.485Z",
+      "attempted_at": "2026-11-11T21:29:55.722Z",
+      "success_at": "2026-11-11T21:29:55.722Z",
       "status": 200,
       "matched": 0,
       "note": "Index retrieved. 0 matching stories, 0 new. 0 changed headlines retained for editorial review."
     },
     {
       "source_id": "mulhouse-news",
-      "attempted_at": "2026-11-10T20:57:24.290Z",
-      "success_at": "2026-11-10T20:57:24.290Z",
+      "attempted_at": "2026-11-11T21:29:56.990Z",
+      "success_at": "2026-11-11T21:29:56.990Z",
       "status": 200,
       "matched": 0,
       "note": "Index retrieved. 0 matching stories, 0 new. 0 changed headlines retained for editorial review."
     },
     {
       "source_id": "richmond-news",
-      "attempted_at": "2026-11-10T20:57:22.785Z",
-      "success_at": "2026-11-10T20:57:22.785Z",
+      "attempted_at": "2026-11-11T21:29:55.847Z",
+      "success_at": "2026-11-11T21:29:55.847Z",
       "status": 200,
       "matched": 5,
       "note": "Index retrieved. 5 matching stories, 0 new. 0 changed headlines retained for editorial review."
     },
     {
       "source_id": "thai-pbs",
-      "attempted_at": "2026-11-10T20:57:22.029Z",
+      "attempted_at": "2026-11-11T21:29:55.249Z",
       "success_at": null,
       "status": 0,
       "matched": 0,
@@ -235,16 +235,16 @@
     },
     {
       "source_id": "toronto-news",
-      "attempted_at": "2026-11-10T20:57:22.936Z",
-      "success_at": "2026-11-10T20:57:22.936Z",
+      "attempted_at": "2026-11-11T21:29:55.952Z",
+      "success_at": "2026-11-11T21:29:55.952Z",
       "status": 200,
       "matched": 1,
       "note": "Index retrieved. 1 matching stories, 0 new. 0 changed headlines retained for editorial review."
     },
     {
       "source_id": "wingham-news",
-      "attempted_at": "2026-11-10T20:57:23.637Z",
-      "success_at": "2026-11-10T20:57:23.637Z",
+      "attempted_at": "2026-11-11T21:29:56.313Z",
+      "success_at": "2026-11-11T21:29:56.313Z",
       "status": 200,
       "matched": 0,
       "note": "Index retrieved. 0 matching stories, 0 new. 0 changed headlines retained for editorial review."
@@ -252,6 +252,6 @@
   ],
   "storageAvailable": true,
   "editorialCheckedAt": "2026-11-06",
-  "lastAttemptAt": "2026-11-10T20:57:24.290Z",
+  "lastAttemptAt": "2026-11-11T21:29:56.990Z",
   "reviewQueue": []
 }
